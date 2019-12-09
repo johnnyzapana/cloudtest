@@ -696,16 +696,26 @@
               "angle": 0,
               "id": "7b5e2ce2-edb2-4cf5-89f3-bad8db9b73b5",
               "z": 12,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
+                  "title": "Archivo puede ser almacenado en su computador o cualquier otro medio disponible",
+                  "type": "Elevation of privilege",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic spoofing threat"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Visualiza la\ndescarga de un\ndocumento\nExcel"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -722,16 +732,26 @@
               "angle": 0,
               "id": "7b976d3a-955d-4a3d-9262-13a3fccd65db",
               "z": 14,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
+                  "title": "Información transaccional puede ser alterada",
+                  "type": "Elevation of privilege",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic spoofing threat"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Almacena\ndocumento en\nsu\ncomputadora"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -1213,41 +1233,6 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "id": "cbc9382c-6c39-4218-89c6-6a84f91e1668"
-              },
-              "target": {
-                "x": 110,
-                "y": 100
-              },
-              "vertices": [],
-              "id": "146c8c0e-0c81-4833-ae48-1fa6271414c0",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "flow 25",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 29,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
                 "x": 58,
                 "y": 150
               },
@@ -1301,6 +1286,14 @@
                 {
                   "x": 150,
                   "y": 505
+                },
+                {
+                  "x": 191,
+                  "y": 507
+                },
+                {
+                  "x": 213,
+                  "y": 493
                 }
               ],
               "id": "c0d48ce2-d3a0-493a-9ecc-c0b7e446e264",
@@ -1309,7 +1302,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 27",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1317,7 +1310,16 @@
                 }
               ],
               "z": 31,
-              "attrs": {}
+              "hasOpenThreats": false,
+              "outOfScope": true,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isOutOfScope"
+                }
+              }
             }
           ]
         },
