@@ -36,7 +36,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Google Chrome"
+                  "text": "Ingresa Cargos\ny Abonos en\nGoogle Chrome"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -82,6 +82,10 @@
                 {
                   "x": 112,
                   "y": 189
+                },
+                {
+                  "x": 133,
+                  "y": 202
                 },
                 {
                   "x": 173,
@@ -140,7 +144,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Webapp WSPC"
+                  "text": "Redirecciona la\npeticiòn\nusando la\nwebapp"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -166,7 +170,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "API UX WSPC"
+                  "text": "API UX\nTransforma los\nmensajes y\nredirecciona"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -202,7 +206,7 @@
                   "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "API BS\nTransaction\nOrder"
+                  "text": "API BS\nTransforma\ndatos y los\nregistra"
                 },
                 ".element-text": {
                   "class": "element-text hasOpenThreats isInScope"
