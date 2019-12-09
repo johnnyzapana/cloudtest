@@ -420,7 +420,476 @@
       {
         "title": "Descarga de información bancaria",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 1
+        "id": 1,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 14,
+                "y": 66
+              },
+              "angle": 0,
+              "id": "cbc9382c-6c39-4218-89c6-6a84f91e1668",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Usuario Servicio para\nClientes"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 293,
+                "y": 104
+              },
+              "angle": 0,
+              "id": "a62c621e-8612-4a2b-a34d-e278f59eeb34",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Solicita\ndescarga de\nCargos y\nAbonos para\nejecutar"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 958,
+                "y": 81
+              },
+              "angle": 0,
+              "id": "0d32f6a0-8bc3-4a59-a77a-7251baf58d17",
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Solicita\ninformación de\nCargo y Abonos"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 463,
+                "y": 126
+              },
+              "angle": 0,
+              "id": "03b59359-c87e-4510-b02a-fe3ad62e63fb",
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Webapp"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 730,
+                "y": 46
+              },
+              "angle": 0,
+              "id": "9ac552e1-831c-4292-8ed1-a5719c51f937",
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "API UX"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 940,
+                "y": 217
+              },
+              "angle": 0,
+              "id": "0088d8c2-0ea0-4717-ac6f-bee969b927e4",
+              "z": 7,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "API BS Transaction order"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 975,
+                "y": 364
+              },
+              "angle": 0,
+              "id": "b306a723-8d2a-4d3e-840a-e66e17ea1dae",
+              "z": 8,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Base de datos"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 741,
+                "y": 212
+              },
+              "angle": 0,
+              "id": "2ad34fcd-b8b6-4b90-a112-3a7ee8c5a400",
+              "z": 9,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Transforma\ninformación\ncon solo datos\nnecesarios"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 630,
+                "y": 291
+              },
+              "angle": 0,
+              "id": "167a62c9-c50e-4972-875b-8b5670d9b041",
+              "z": 10,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Genera reporte\nen formato\nExcel y\ntransforma a\nbase 64"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 472,
+                "y": 261
+              },
+              "angle": 0,
+              "id": "5a01558e-5310-45a1-8c7f-de8da74648c1",
+              "z": 11,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Retorna\nrespuesta en\nforma JSON"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 209,
+                "y": 247
+              },
+              "angle": 0,
+              "id": "7b5e2ce2-edb2-4cf5-89f3-bad8db9b73b5",
+              "z": 12,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Visualiza la\ndescarga de un\ndocumento\nExcel"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 63,
+                "y": 266
+              },
+              "angle": 0,
+              "id": "7b976d3a-955d-4a3d-9262-13a3fccd65db",
+              "z": 14,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Almacena\ndocumento en\nsu\ncomputadora"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 82,
+                "y": 447
+              },
+              "angle": 0,
+              "id": "cf099c08-9c5d-4b02-b16d-1f8fb35b5707",
+              "z": 16,
+              "hasOpenThreats": false,
+              "outOfScope": true,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isOutOfScope"
+                },
+                "text": {
+                  "text": "Carga\ninformación de\nexcel a otros\ncanales"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "cbc9382c-6c39-4218-89c6-6a84f91e1668"
+              },
+              "target": {
+                "id": "a62c621e-8612-4a2b-a34d-e278f59eeb34"
+              },
+              "vertices": [
+                {
+                  "x": 239,
+                  "y": 95
+                },
+                {
+                  "x": 270,
+                  "y": 149
+                }
+              ],
+              "id": "2bbee49d-7e4b-4a3f-be61-b001ed010b43",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 1,
+                    "offset": -20
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 17,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "a62c621e-8612-4a2b-a34d-e278f59eeb34"
+              },
+              "target": {
+                "id": "03b59359-c87e-4510-b02a-fe3ad62e63fb"
+              },
+              "vertices": [
+                {
+                  "x": 408,
+                  "y": 161
+                }
+              ],
+              "id": "c973c57f-a186-4047-bb47-558df40c99ee",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.7022402080130692,
+                    "offset": 0.9562032240125166
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 18,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "03b59359-c87e-4510-b02a-fe3ad62e63fb"
+              },
+              "target": {
+                "id": "9ac552e1-831c-4292-8ed1-a5719c51f937"
+              },
+              "vertices": [],
+              "id": "64548a1c-69c3-4ae5-bb84-0615124a4ca1",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Envía",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 19,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": 707,
+          "width": 1157
+        }
       }
     ],
     "reviewer": "Everis Perú"
