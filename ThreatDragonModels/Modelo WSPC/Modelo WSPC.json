@@ -1,0 +1,27 @@
+{
+  "summary": {
+    "title": "Modelo WSPC",
+    "owner": "BCP",
+    "description": "Sistema de ingreso de Solicitudes y manejo de Cargos y Abonos."
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Johnny Zapana"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Ingreso de montos no validados",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      },
+      {
+        "title": "Descarga de información bancaria",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 1
+      }
+    ],
+    "reviewer": "Everis Perú"
+  }
+}
